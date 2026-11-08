@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nul)",
+      "Bash(cat:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Aplikasi Generator Penawaran Ruswandi\n\n- Setup React + Vite + Tailwind CSS\n- Implementasi form input penawaran lengkap\n- Fitur preview real-time\n- Export ke PDF dengan html2pdf.js\n- GitHub Actions untuk auto-deploy ke GitHub Pages\n- Responsive design\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nTambah fitur tanda tangan gambar dan auto-generate nomor penawaran\n\n- Integrasi gambar tanda tangan dari public/tanda tangan.png\n- Auto-generate nomor penawaran dengan format random\n- Tombol refresh untuk generate nomor baru\n- Format: [4-digit-random]/PEN/[Bulan]/[Tahun]\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
